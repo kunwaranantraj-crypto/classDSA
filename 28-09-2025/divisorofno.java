@@ -1,6 +1,6 @@
-// Q11. Write a program to print the divisors of a number.
 
-class Q11 {
+
+class Main {
     public static void main(String[] args) {
         int n = 28;
         System.out.print("Divisors: ");
@@ -8,3 +8,4 @@ class Q11 {
             if (n % i == 0) System.out.print(i + " ");
     }
 }
+
